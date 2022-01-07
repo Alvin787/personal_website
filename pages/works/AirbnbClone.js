@@ -14,8 +14,8 @@ const Work = () => (
         This is a simple Airbnb web application that has a minimalistic landing
         page that leads to the main listings page. The listings and all related
         listing data are fetched using the Axios client from a free MongoDB
-        database. The dataset used is MongoDB's built in dataset called
-        "sample_airbnb".
+        database. The dataset used is MongoDB&apos;s built in dataset called
+        &ldquo;sample_airbnb&ldquo;.
       </P>
       <List ml={4} my={4}>
         <ListItem>

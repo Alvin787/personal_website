@@ -11,14 +11,17 @@ import {
   ListItem,
   Icon,
   useColorModeValue,
-  Divider
+  Divider,
 } from "@chakra-ui/react";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import Section from "../components/section";
 import Paragraph from "../components/paragraph";
 import Layout from "../components/Layout/article";
-import { IoLogoGithub, IoMailUnreadSharp, IoLogoLinkedin } from "react-icons/io5";
-
+import {
+  IoLogoGithub,
+  IoMailUnreadSharp,
+  IoLogoLinkedin,
+} from "react-icons/io5";
 
 const Home = () => {
   return (
@@ -31,8 +34,8 @@ const Home = () => {
           textAlign="center"
           bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
         >
-          Hello, I'm a first year software engineering student based in Ontario
-          Canada!
+          Hello, I&apos;m a first year software engineering student based in
+          Ontario Canada!
         </Box>
 
         <Box disply={{ md: "flex" }}>
@@ -49,15 +52,16 @@ const Home = () => {
             Who am I?
           </Heading>
           <Paragraph>
-            I'm a first year student at McMaster University pursuing Software
-            Engineering. I'm passionate about developing applications mainly
-            with React or Python. Currently, I am learning more about React and
-            it's ecosystem (Next.js, testing, state-managment, and API calls).
-            In the future, I want to explore mobile development (maybe with
-            React Native) and backend development. At school, I am a memeber of
-            the McMaster competitive programming club. Although I'm a beginner,
-            my goal is to make the junior team for the International Collegiate
-            Programming Contest (ICPC) provincials next year.
+            I&apos;m a first year student at McMaster University pursuing
+            Software Engineering. I&apos;m passionate about developing
+            applications mainly with React or Python. Currently, I am learning
+            more about React and it&apos;s ecosystem (Next.js, testing,
+            state-managment, and API calls). In the future, I want to explore
+            mobile development (maybe with React Native) and backend
+            development. At school, I am a memeber of the McMaster competitive
+            programming club. Although I&apos;m a beginner, my goal is to make
+            the junior team for the International Collegiate Programming Contest
+            (ICPC) provincials next year.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
