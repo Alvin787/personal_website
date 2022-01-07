@@ -16,6 +16,7 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="shortcut icon" href="/websitepic.png" type="image/x-icon"/>
         <title>Alvin Qian - Homepage</title>
       </Head>
 

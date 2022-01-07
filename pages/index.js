@@ -75,6 +75,7 @@ const Home = () => {
           </Heading>
           <Paragraph>Painting, Music, Photography, Food</Paragraph>
         </Section>
+        <Divider my={6} pt={3}/>
 
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
