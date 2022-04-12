@@ -32,7 +32,7 @@ const Home = () => {
           textAlign="center"
           bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
         >
-          Hello, I&apos;m a first year software engineering student based in
+          Hello, I&apos;m a software engineering student based in
           Ontario Canada!
         </Box>
 
@@ -50,7 +50,7 @@ const Home = () => {
             Who am I?
           </Heading>
           <Paragraph>
-            I&apos;m a first year student at McMaster University pursuing
+            I&apos;m a student at McMaster University pursuing
             Software Engineering. I&apos;m passionate about developing
             applications mainly with React or Python. Currently, I am learning
             more about React and it&apos;s ecosystem (Next.js, testing,
