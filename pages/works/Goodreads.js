@@ -25,7 +25,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Repository</Meta>
-          <Link href="">
+          <Link href="https://github.com/Alvin787/Book-Catalogue-Generator">
             Github Link <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
