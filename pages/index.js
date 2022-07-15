@@ -32,7 +32,7 @@ const Home = () => {
           textAlign="center"
           bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
         >
-          Hello, I&apos;m a software engineering student based in
+          Hello, I&apos;m a sophomore software engineering student based in
           Ontario Canada!
         </Box>
 
@@ -41,7 +41,7 @@ const Home = () => {
             <Heading as="h2" varient="page-title">
               Alvin Qian
             </Heading>
-            <Divider my={6} />
+            <Divider my={9} />
           </Box>
         </Box>
 
@@ -54,12 +54,10 @@ const Home = () => {
             Software Engineering. I&apos;m passionate about developing
             applications mainly with React or Python. Currently, I am learning
             more about React and it&apos;s ecosystem (Next.js, testing,
-            state-managment, and API calls). In the future, I want to explore
-            mobile development (maybe with React Native) and backend
-            development. At school, I am a memeber of the McMaster competitive
+            state-managment, and API calls). At school, I am a member of the McMaster competitive
             programming club. Although I&apos;m a beginner, my goal is to make
             the junior team for the International Collegiate Programming Contest
-            (ICPC) provincials next year.
+            (ICPC) provincials this year.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
