@@ -19,7 +19,22 @@ const Works = () => {
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
-            <WorkGridItem id="OYMS" title="OYMS" thumbnail={OYMS}>
+            <WorkGridItem id="FORD" title="Ford Motor Company: Software Engineer Intern" thumbnail={Ford}>
+              Working on the Ford Technologies Solutions team 
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem id="ECO" title="McMaster EcoCar Team: Software Engineer" thumbnail={ECO}>
+              Connected and Automated Vehicles (CAVs) sub-team engineer
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem id="FED" title="Federation of Canadian Municipalities: Back-End Developer Intern" thumbnail={FED}>
+              Developing the back-end for the Grants and Loans Management team
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem id="OYMS" title="OYMS: Front-End Developer Intern" thumbnail={OYMS}>
               The official website for the Ontario Youth Medical Society
             </WorkGridItem>
           </Section>
@@ -33,6 +48,24 @@ const Works = () => {
         </Section>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.3}>
+            <WorkGridItem
+              id="Civility"
+              thumbnail={civility}
+              title="Civility"
+            >
+              Restore the environment through a social hub where people share how to restore/repair personal possessions.
+            </WorkGridItem>
+          </Section>
+          <Section delay={0.3}>
+            <WorkGridItem
+              id="Restorum"
+              thumbnail={restorum}
+              title="Restorum"
+            >
+              My personal portfolio website
+            </WorkGridItem>
+          </Section>
           <Section delay={0.3}>
             <WorkGridItem
               id="PersonalWebsite"

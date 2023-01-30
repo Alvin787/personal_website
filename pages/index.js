@@ -52,7 +52,7 @@ const Home = () => {
           <Paragraph>
             I&apos;m a student at McMaster University pursuing
             Software Engineering. I&apos;m passionate about developing
-            applications mainly with React or Python. Currently, I am learning
+            applications mainly with Python, Java, or React. Currently, I am learning
             more about React and it&apos;s ecosystem (Next.js, testing,
             state-managment, and API calls). At school, I am a member of the McMaster competitive
             programming club. Although I&apos;m a beginner, my goal is to make
@@ -71,7 +71,7 @@ const Home = () => {
           <Heading as="h3" variant="section-title">
             I ♥
           </Heading>
-          <Paragraph>Painting, Music, Photography, Food</Paragraph>
+          <Paragraph>Painting, Music, Photography, Food, Outdoors (Skiing and Snowboarding)</Paragraph>
         </Section>
         <Divider my={6} pt={3}/>
 
