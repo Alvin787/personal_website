@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="OYMS">
     <Container>
       <Title>
-        Ontario Youth Medical Society <Badge>May 2021-Oct 2021</Badge>
+        Ontario Youth Medical Society <Badge>May 2021 - Sep 2021</Badge>
       </Title>
       <P>
         I worked as a developer for the official website of the Ontario Youth
