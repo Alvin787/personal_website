@@ -1,6 +1,6 @@
 import { Container, Badge, Link, List, ListItem } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
-import { Title, WorkImage, Meta } from "../../components/work";
+import { Title, Meta } from "../../components/work";
 import P from "../../components/paragraph";
 import Layout from "../../components/Layout/article";
 
@@ -17,8 +17,8 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://oyms.org/">
-            https://oyms.org/ <ExternalLinkIcon mx="2px" />
+          <Link href="https://fcm.ca/en">
+            https://fcm.ca/en <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>

@@ -8,6 +8,11 @@ import fit0 from "../public/images/works/fit0.png";
 import Airbnb2 from "../public/images/works/Airbnb2.png";
 import book2 from "../public/images/works/book2.png";
 import websitepic from "../public/images/works/websitepic.png";
+import Ford from "../public/images/works/Ford.png";
+import ECOlogo from "../public/images/works/ECOlogo.jpeg";
+import FED from "../public/images/works/FED.png";
+import civ0 from "../public/images/works/civ0.png";
+import restlogo from "../public/images/works/restlogo.png";
 
 
 const Works = () => {
@@ -19,17 +24,17 @@ const Works = () => {
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
-            <WorkGridItem id="FORD" title="Ford Motor Company: Software Engineer Intern" thumbnail={OYMS}>
+            <WorkGridItem id="FORD" title="Ford Motor Company: Software Engineer Intern" thumbnail={Ford}>
               Working on the Ford Technologies Solutions team 
             </WorkGridItem>
           </Section>
           <Section>
-            <WorkGridItem id="ECO" title="McMaster EcoCar Team: Software Engineer" thumbnail={OYMS}>
+            <WorkGridItem id="ECO" title="McMaster EcoCar Team: Software Engineer" thumbnail={ECOlogo}>
               Connected and Automated Vehicles (CAVs) sub-team engineer
             </WorkGridItem>
           </Section>
           <Section>
-            <WorkGridItem id="FED" title="Federation of Canadian Municipalities: Back-End Developer Intern" thumbnail={OYMS}>
+            <WorkGridItem id="FED" title="Federation of Canadian Municipalities: Back-End Developer Intern" thumbnail={FED}>
               Developing the back-end for the Grants and Loans Management team
             </WorkGridItem>
           </Section>
@@ -51,7 +56,7 @@ const Works = () => {
         <Section delay={0.3}>
             <WorkGridItem
               id="Civility"
-              thumbnail={civility}
+              thumbnail={civ0}
               title="Civility"
             >
               An NLP-based text analysis web application that can help you develop and more importantly keep a healthy online presence
@@ -60,7 +65,7 @@ const Works = () => {
           <Section delay={0.3}>
             <WorkGridItem
               id="Restorum"
-              thumbnail={restorum}
+              thumbnail={restlogo}
               title="Restorum"
             >
               Restore the environment through a social hub where people share how to restore/repair personal possessions

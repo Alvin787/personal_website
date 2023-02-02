@@ -41,7 +41,7 @@ const Work = () => (
 
       <WorkImage src="/images/works/rest0.png" alt="rest0" />
       <WorkImage src="/images/works/rest1.png" alt="rest1" />
-      <WorkImage src="/images/works/rest2.png" alt="rest2" />
+      <WorkImage src="/images/works/rest2.jpg" alt="rest2" />
     </Container>
   </Layout>
 );
