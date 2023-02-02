@@ -19,17 +19,17 @@ const Works = () => {
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
-            <WorkGridItem id="FORD" title="Ford Motor Company: Software Engineer Intern" thumbnail={Ford}>
+            <WorkGridItem id="FORD" title="Ford Motor Company: Software Engineer Intern" thumbnail={OYMS}>
               Working on the Ford Technologies Solutions team 
             </WorkGridItem>
           </Section>
           <Section>
-            <WorkGridItem id="ECO" title="McMaster EcoCar Team: Software Engineer" thumbnail={ECO}>
+            <WorkGridItem id="ECO" title="McMaster EcoCar Team: Software Engineer" thumbnail={OYMS}>
               Connected and Automated Vehicles (CAVs) sub-team engineer
             </WorkGridItem>
           </Section>
           <Section>
-            <WorkGridItem id="FED" title="Federation of Canadian Municipalities: Back-End Developer Intern" thumbnail={FED}>
+            <WorkGridItem id="FED" title="Federation of Canadian Municipalities: Back-End Developer Intern" thumbnail={OYMS}>
               Developing the back-end for the Grants and Loans Management team
             </WorkGridItem>
           </Section>
@@ -54,7 +54,7 @@ const Works = () => {
               thumbnail={civility}
               title="Civility"
             >
-              Restore the environment through a social hub where people share how to restore/repair personal possessions.
+              An NLP-based text analysis web application that can help you develop and more importantly keep a healthy online presence
             </WorkGridItem>
           </Section>
           <Section delay={0.3}>
@@ -63,7 +63,7 @@ const Works = () => {
               thumbnail={restorum}
               title="Restorum"
             >
-              My personal portfolio website
+              Restore the environment through a social hub where people share how to restore/repair personal possessions
             </WorkGridItem>
           </Section>
           <Section delay={0.3}>
@@ -77,7 +77,7 @@ const Works = () => {
           </Section>
           <Section delay={0.3}>
             <WorkGridItem id="fitConnect" thumbnail={fit0} title="fitConnect">
-              A social media web app that connects users through fitness
+              A social media web app that connects users through fitness goals
             </WorkGridItem>
           </Section>
           <Section delay={0.3}>
@@ -86,7 +86,7 @@ const Works = () => {
               thumbnail={Airbnb2}
               title="Airbnb Clone"
             >
-              Minimalistic home page that displays Airbnb listings
+              Minimalistic home page re-creation that displays Airbnb listings and property data
             </WorkGridItem>
           </Section>
           <Section delay={0.3}>

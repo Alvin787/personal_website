@@ -60,7 +60,7 @@ const Home = () => {
             (ICPC) provincials this year.
           </Paragraph>
           <Box align="center" my={4}>
-            <NextLink href="/works">
+            <NextLink href="/works" legacyBehavior>
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                 My portfolio
               </Button>

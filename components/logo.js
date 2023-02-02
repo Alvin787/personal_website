@@ -16,7 +16,6 @@ const Logo = () => {
 
   return (
     <Link href="/">
-      <a>
         <LogoBox>
           <Text
             color={useColorModeValue("gray.800", "whiteAlpha.900")}
@@ -27,7 +26,6 @@ const Logo = () => {
             Alvin Qian
           </Text>
         </LogoBox>
-      </a>
     </Link>
   );
 };

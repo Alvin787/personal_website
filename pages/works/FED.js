@@ -27,7 +27,6 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/OYMS.png" alt="OYMS" />
     </Container>
   </Layout>
 );
