@@ -8,7 +8,7 @@ import fit0 from "../public/images/works/fit0.png";
 import Airbnb2 from "../public/images/works/Airbnb2.png";
 import book2 from "../public/images/works/book2.png";
 import websitepic from "../public/images/works/websitepic.png";
-import Ford from "../public/images/works/Ford.png";
+import Ford from "../public/images/works/Ford.jpg";
 import ECOlogo from "../public/images/works/ECOlogo.jpeg";
 import FED from "../public/images/works/FED.png";
 import civ0 from "../public/images/works/civ0.png";
