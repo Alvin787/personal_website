@@ -32,7 +32,7 @@ const Home = () => {
           textAlign="center"
           bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
         >
-          Hello, I&apos;m a sophomore software engineering student based in
+          Hello, I&apos;m a 3rd year software engineering student based in
           Ontario Canada!
         </Box>
 
